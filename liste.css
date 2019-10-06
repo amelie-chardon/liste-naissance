@@ -1,0 +1,181 @@
+﻿html
+{
+}
+
+body {
+  margin:0;
+  padding:0;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  height: 100vh;
+  font-family: 'Gloria Hallelujah', cursive;
+
+
+
+
+  /*fond ecran*/
+  background-image: url("../liste-naissance/img/background.JPG");
+  background-color:pink;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+    }
+
+h1
+{
+  color:white;
+  font-size:2.6em;
+  padding:0px;
+  margin:20px;
+  align-content:start;
+  align-items:start;
+  font-family: 'Satisfy', cursive;
+}
+
+button
+{
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.4em;
+  margin-top:15px;
+  margin-bottom:40px;
+  font-family: 'Satisfy', cursive;
+  border-radius: 8px;
+  }
+
+/*liste*/
+
+.liste 
+{
+  position: relative;
+  width: 75vw;
+  vertical-align: center;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content:center;
+  justify-items:right;
+  border-radius: 8px;
+  overflow: hidden;
+  border-spacing: 15px;
+  backdrop-filter: blur(5px);
+   }
+
+   .coin
+{
+	background:none;
+}
+
+th, .categorie
+{
+background-color: #fff;
+font-size:1.2em;
+font-weight:bold;
+color:black;
+border-radius: 55px;
+
+}
+
+.categorie
+{
+	width:12vw;
+}
+
+.description
+{
+	width:32vw;
+}
+
+.image
+{
+	width:30vw;
+}
+
+.image img:hover
+{
+	opacity:1;
+}
+
+th
+{
+height:6vh;
+}
+
+td
+{
+	background: rgba(231, 165, 151, 0.5);
+	padding:2px;
+	color:white;
+	padding:8px;
+	border-radius: 25px;
+}
+
+.image img
+{
+	max-width: 30vw;
+	max-height:30vh;
+	opacity:0.6;
+}
+
+.achete
+{
+  font-size:1.1em;
+  text-decoration: line-through;
+}
+
+.normal
+{
+  font-weight:bold;
+  font-size:1.1em;
+}
+
+.selectionne
+{
+color:grey;
+font-weight:bold;
+font-size:1.1em;
+background: rgba(183, 168, 165, 0.5);
+}
+
+.urgent
+{
+  background: rgba(227, 55, 18, 0.5);
+  font-weight:bold;
+  font-size:1.1em;
+}
+
+  /*formulaire*/
+
+  .formulaire
+  {
+  display:flex;
+  flex-direction:column;
+  position: relative;
+  width: 15vw;
+  height:60vh;
+  background-color: white;
+  align-items:center;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top:30px;
+  justify-content:center;
+  }
+
+  h2
+{
+  padding:2px;
+  margin:2px;
+}
+
+.note
+{
+	height:80px;
+}
+
